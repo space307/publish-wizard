@@ -1,6 +1,6 @@
 {
   "name": "@space307/publish-wizard",
-  "version": "0.0.1-test.17",
+  "version": "0.0.1-test.31",
   "description": "The easiest way to publish packages for projects using Lerna and NPM",
   "main": "index.js",
   "author": "Viktor Pasynok",
@@ -37,9 +37,12 @@
     }
   ],
   "scripts": {
-    "prettier:check": "prettier --check 'lib/**/*.js'"
+    "clean-publish": "clean-publish",
+    "prettier:check": "prettier --check 'lib/**/*.js'",
+    "prettier:fix": "prettier --write 'lib/**/*.js'"
   },
   "devDependencies": {
+    "clean-publish": "2",
     "@arkweid/lefthook": "0.7"
   },
   "dependencies": {
