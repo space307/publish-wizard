@@ -15,7 +15,11 @@ Publish Wizard helps you not to think about the problem of queuing, allowing you
 
 ## How It Works
 
-https://user-images.githubusercontent.com/8722478/124937120-c5a52d80-e00f-11eb-8547-d6882431e6ca.mp4
+
+
+https://user-images.githubusercontent.com/8722478/124968840-ab2e7c80-e02e-11eb-8a79-774c9663b429.mp4
+
+
 
 1. Select a package from the list
 1. Select an [action](#actions):
