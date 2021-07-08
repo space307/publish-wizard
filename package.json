@@ -1,0 +1,30 @@
+{
+  "name": "@space307/publish-wizard",
+  "version": "0.0.1-test.17",
+  "description": "",
+  "main": "index.js",
+  "author": "Viktor Pasynok",
+  "license": "MIT",
+  "bin": "./bin/publish-wizard.cjs",
+  "publishConfig": {
+    "registry": "https://jfrog.space307.tech/api/npm/space307-frontend-local/"
+  },
+  "scripts": {
+    "prettier:check": "prettier --check 'lib/**/*.js'"
+  },
+  "devDependencies": {
+    "@arkweid/lefthook": "0.7"
+  },
+  "dependencies": {
+    "node-emoji": "1",
+    "jsonfile": "6",
+    "inquirer": "8",
+    "kleur": "4",
+    "nanoid": "3",
+    "prettier": "2",
+    "semver": "7"
+  },
+  "peerDependencies": {
+    "lerna": "*"
+  }
+}
