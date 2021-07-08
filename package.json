@@ -1,13 +1,13 @@
 {
   "name": "@space307/publish-wizard",
   "version": "0.0.1-test.17",
-  "description": "",
+  "description": "The easiest way to publish packages for projects using Lerna and NPM",
   "main": "index.js",
   "author": "Viktor Pasynok",
   "license": "MIT",
   "bin": "./bin/publish-wizard.cjs",
   "publishConfig": {
-    "registry": "https://jfrog.space307.tech/api/npm/space307-frontend-local/"
+    "registry": "https://registry.npmjs.org"
   },
   "scripts": {
     "prettier:check": "prettier --check 'lib/**/*.js'"
