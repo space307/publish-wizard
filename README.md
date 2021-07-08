@@ -86,15 +86,18 @@ Bump packages in order:
 
 ```sh
 npm install --save-dev @space307/publish-wizard
+
+# or
+
+yarn add @space307/publish-wizard --dev
 ```
 
 4. Add the `publish-wizard` script to your **root** package.json:
 
 ```diff
   {
-    "name": "my-awesome-package",
     "scripts": {
-      "prepublishOnly": "<do-smth-before-publish>",
+      "test": "echo \"Error: no test specified\" && exit 1",
 +     "publish-wizard": "publish-wizard"
     }
   }
@@ -104,4 +107,8 @@ npm install --save-dev @space307/publish-wizard
 
 ```sh
 npm run publish-wizard
+
+# or
+
+yarn run publish-wizard
 ```
