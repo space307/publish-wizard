@@ -83,7 +83,7 @@ Bump packages in order:
 }
 ```
 
-3. Install:
+3. Install `@space307/publish-wizard`:
 
 ```sh
 npm install --save-dev @space307/publish-wizard
