@@ -4,11 +4,37 @@
   "description": "The easiest way to publish packages for projects using Lerna and NPM",
   "main": "index.js",
   "author": "Viktor Pasynok",
+  "email": "v.pasynok@space307.com",
   "license": "MIT",
   "bin": "./bin/publish-wizard.cjs",
+  "keywords": [
+    "lerna",
+    "publish",
+    "npm",
+    "publisher",
+    "packages",
+    "monorepo",
+    "lerna publsih",
+    "simple publish",
+    "easy publish"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:space307/publish-wizard.git"
+  },
+  "bugs": {
+    "url": "https://github.com/space307/publish-wizard/issues"
+  },
+  "homepage": "https://github.com/space307/publish-wizard#readme",
   "publishConfig": {
     "registry": "https://registry.npmjs.org"
   },
+  "maintainers": [
+    {
+      "name": "Viktor Pasynok",
+      "email": "v.pasynok@space307.com"
+    }
+  ],
   "scripts": {
     "prettier:check": "prettier --check 'lib/**/*.js'"
   },
