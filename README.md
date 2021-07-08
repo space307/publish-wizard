@@ -23,7 +23,9 @@ https://user-images.githubusercontent.com/8722478/124937120-c5a52d80-e00f-11eb-8
    - Publish release (soon)
    - Show update queue
 
-### Pre-release action
+### Actions
+
+#### Publish pre-release
 
 1. Select a postfix from the list
 2. Select an extent of changes
@@ -45,11 +47,11 @@ Published packages:
 
 </details>
 
-### Publish release
+#### Publish release
 
 _Soon..._
 
-### Show update queue
+#### Show update queue
 
 Publish Wizard will display a queue of packages that need to be updated.
 
