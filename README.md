@@ -15,9 +15,7 @@ Publish Wizard helps you not to think about the problem of queuing, allowing you
 
 ## How It Works
 
-
 https://user-images.githubusercontent.com/8722478/124937120-c5a52d80-e00f-11eb-8547-d6882431e6ca.mp4
-
 
 1. Select a package from the list
 1. Select an action:
@@ -77,6 +75,7 @@ Bump packages in order:
 {
   "name": "my-awesome-package",
   "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
     "prepublishOnly": "<do-smth-before-publish>"
   }
 }
