@@ -1,6 +1,6 @@
 {
   "name": "@space307/publish-wizard",
-  "version": "0.0.1-test.32",
+  "version": "0.0.1-test.36",
   "description": "The easiest way to publish packages for projects using Lerna and NPM",
   "author": "Viktor Pasynok",
   "email": "v.pasynok@space307.com",
@@ -46,11 +46,11 @@
     "prettier": "2"
   },
   "dependencies": {
-    "node-emoji": "1",
     "jsonfile": "6",
-    "inquirer": "8",
     "kleur": "4",
     "nanoid": "3",
+    "node-emoji": "1",
+    "prompts": "2",
     "semver": "7"
   },
   "peerDependencies": {
