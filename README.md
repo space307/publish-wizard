@@ -13,23 +13,19 @@ Adding more packages will make the queuing problem worse.
 
 Publish Wizard helps you not to think about the problem of queuing, allowing you to focus on what's important.
 
-## How It Works
-
-
+## How it works
 
 https://user-images.githubusercontent.com/8722478/124968840-ab2e7c80-e02e-11eb-8a79-774c9663b429.mp4
 
-
-
 1. Select a package from the list
 1. Select an [action](#actions):
-   - Publish pre-release
+   - Publish prerelease
    - Publish release (soon)
    - Show update queue
 
 ### Actions
 
-#### Publish pre-release
+#### Publish prerelease
 
 1. Select a postfix from the list
 2. Select an extent of changes
