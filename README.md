@@ -23,7 +23,7 @@ https://user-images.githubusercontent.com/8722478/124937120-c5a52d80-e00f-11eb-8
    - Publish release (soon)
    - Show update queue
 
-### Pre-lease action
+### Pre-release action
 
 1. Select a postfix from the list
 2. Select an extent of changes
