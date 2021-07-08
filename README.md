@@ -18,7 +18,7 @@ Publish Wizard helps you not to think about the problem of queuing, allowing you
 https://user-images.githubusercontent.com/8722478/124937120-c5a52d80-e00f-11eb-8547-d6882431e6ca.mp4
 
 1. Select a package from the list
-1. Select an action:
+1. Select an [action](#actions):
    - Publish pre-release
    - Publish release (soon)
    - Show update queue
