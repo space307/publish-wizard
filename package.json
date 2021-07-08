@@ -41,8 +41,9 @@
     "prettier:fix": "prettier --write 'lib/**/*.js'"
   },
   "devDependencies": {
+    "@arkweid/lefthook": "0.7",
     "clean-publish": "2",
-    "@arkweid/lefthook": "0.7"
+    "prettier": "2"
   },
   "dependencies": {
     "node-emoji": "1",
@@ -50,7 +51,6 @@
     "inquirer": "8",
     "kleur": "4",
     "nanoid": "3",
-    "prettier": "2",
     "semver": "7"
   },
   "peerDependencies": {
