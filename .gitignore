@@ -4,7 +4,4 @@ dist/
 .cache/
 build/
 .DS_Store
-coverage/
-lerna-debug.log
-**/*.zip
 .vscode

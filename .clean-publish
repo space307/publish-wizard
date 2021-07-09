@@ -5,11 +5,10 @@
     ".vscode",
     ".editorconfig",
     ".gitignore",
-    ".prettierignore",
     ".prettierrc",
     "lefthook.yml"
   ],
-  "fields": ["devDependencies", "scripts", "keywords"],
+  "fields": ["devDependencies", "scripts"],
   "packageManager": "npm",
   "access": "public"
 }
