@@ -46,7 +46,6 @@
     "prettier": "2"
   },
   "dependencies": {
-    "jsonfile": "6",
     "kleur": "4",
     "nanoid": "3",
     "prompts": "2",
