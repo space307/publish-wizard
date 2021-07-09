@@ -15,8 +15,7 @@ Publish Wizard helps you not to think about the problem of queuing, allowing you
 
 ## How it works
 
-
-https://user-images.githubusercontent.com/8722478/125050932-1f0e6a80-e0ab-11eb-9362-1c6545e9eb9d.mov
+https://user-images.githubusercontent.com/8722478/125051612-ca1f2400-e0ab-11eb-98ab-01e0b5a29e24.mp4
 
 
 1. Select a package from the list
