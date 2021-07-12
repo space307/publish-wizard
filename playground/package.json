@@ -1,0 +1,13 @@
+{
+  "name": "playground",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "publish-wizard": "node ../bin/publish-wizard.cjs"
+  },
+  "author": "Viktor Pasynok",
+  "devDependencies": {
+    "lerna": "4"
+  }
+}

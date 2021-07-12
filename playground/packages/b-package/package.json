@@ -1,0 +1,19 @@
+{
+  "name": "b-package",
+  "version": "2.0.0",
+  "description": "b-package",
+  "module": "build/index.es.js",
+  "main": "build/index.es.js",
+  "author": "Viktor Pasynok",
+  "scripts": {
+    "prepublishOnly": "echo prepublish b-package",
+    "build": "echo b-package",
+    "test-publish": "echo  b-package publishing"
+  },
+  "devDependencies": {
+    "a-package": "1.0.0"
+  },
+  "peerDependencies": {
+    "a-package": "1.0.0"
+  }
+}
