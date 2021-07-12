@@ -7,6 +7,7 @@
     ".gitignore",
     ".prettierrc",
     "lefthook.yml",
+    "CONTRIBUTING.md",
     "playground"
   ],
   "fields": ["devDependencies", "scripts"],
