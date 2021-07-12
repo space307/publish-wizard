@@ -4,12 +4,12 @@ The easiest way to publish packages for projects using Lerna and NPM.
 
 ## The problem it solves
 
-When publishing packages, it is necessary to follow the correct order of updates.
+When publishing packages, it is necessary to follow the correct sequence of updates.
 
 For example, we have three packages: A, B, C. B depends on A. C depends on B.<br />
-If we want to update A, we need to update B and C (A -> B -> C). We can specify versions of dependencies flexibly, but this does not help in the situation of publishing an unstable version of a package (with `next` postfix, for example).
+If we want to update A, we need to update B and C (A -> B -> C).
 
-Adding more packages will make the queuing problem worse.
+We can specify versions of dependencies flexibly, but this does not help in the case of publishing an unstable version of a package (with `next` postfix, for example). Adding more packages will only make the problem of queuing worse.
 
 Publish Wizard helps you not to think about the problem of queuing, allowing you to focus on what's important.
 
@@ -18,17 +18,17 @@ Publish Wizard helps you not to think about the problem of queuing, allowing you
 https://user-images.githubusercontent.com/8722478/125051612-ca1f2400-e0ab-11eb-98ab-01e0b5a29e24.mp4
 
 1. Select a package from the list
-1. Select an [action](#actions):
-   - Publish prerelease
-   - Publish release (soon)
-   - Show update queue
+1. Select the [action](#actions):
+   - Publish a prerelease
+   - Publish a release (soon)
+   - Show the update queue
 
 ### Actions
 
 #### Publish prerelease
 
 1. Select a postfix from the list
-2. Select an extent of changes
+2. Select the extent of changes
 3. Accept publish
 
 Publish Wizard will repeat the cycle of questions for all the packages that need to be updated.
@@ -51,9 +51,9 @@ Published packages:
 
 _Soon..._
 
-#### Show update queue
+#### Show the update queue
 
-Publish Wizard will display a queue of packages that need to be updated.
+Publish Wizard will display the queue of packages that need to be updated.
 
 <details><summary><b>Output example</b></summary>
 
