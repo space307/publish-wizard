@@ -116,7 +116,7 @@ yarn run publish-wizard
 
 ## Advanced usage
 
-You can specify custom `postfixes` and `publish command` through the config.
+You can specify `custom postfixes` and `publish command` through the config.
 
 Publish Wizard supports three ways to define config.
 
