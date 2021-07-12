@@ -1,0 +1,19 @@
+{
+  "name": "sandbox-package",
+  "version": "0.0.0",
+  "description": "sandbox-package",
+  "module": "build/index.es.js",
+  "main": "build/index.es.js",
+  "author": "Viktor Pasynok",
+  "private": true,
+  "devDependencies": {
+    "a-package": "1.0.0",
+    "b-package": "2.0.0",
+    "c-package": "3.0.0"
+  },
+  "peerDependencies": {
+    "a-package": "1.0.0",
+    "b-package": "2.0.0",
+    "c-package": "3.0.0"
+  }
+}

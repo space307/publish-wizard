@@ -6,7 +6,9 @@
     ".editorconfig",
     ".gitignore",
     ".prettierrc",
-    "lefthook.yml"
+    "lefthook.yml",
+    "CONTRIBUTING.md",
+    "playground"
   ],
   "fields": ["devDependencies", "scripts"],
   "packageManager": "npm",

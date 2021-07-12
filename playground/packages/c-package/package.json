@@ -1,0 +1,21 @@
+{
+  "name": "c-package",
+  "version": "3.0.0",
+  "description": "c-package",
+  "module": "build/index.es.js",
+  "main": "build/index.es.js",
+  "author": "Viktor Pasynok",
+  "scripts": {
+    "prepublishOnly": "echo prepublish c-package",
+    "build": "echo c-package",
+    "test-publish": "echo c-package publishing"
+  },
+  "devDependencies": {
+    "a-package": "1.0.0",
+    "b-package": "2.0.0"
+  },
+  "peerDependencies": {
+    "a-package": "1.0.0",
+    "b-package": "2.0.0"
+  }
+}

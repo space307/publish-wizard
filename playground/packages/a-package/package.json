@@ -1,0 +1,13 @@
+{
+  "name": "a-package",
+  "version": "1.0.0",
+  "description": "a-package",
+  "module": "build/index.es.js",
+  "main": "build/index.es.js",
+  "author": "Viktor Pasynok",
+  "scripts": {
+    "prepublishOnly": "echo prepublish a-package",
+    "build": "echo a-package",
+    "test-publish": "echo  a-package publishing"
+  }
+}
