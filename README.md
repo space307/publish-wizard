@@ -125,7 +125,7 @@ Publish Wizard supports three ways to define config.
 ```json
 "publish-wizard": {
   "postfixes": ["my", "awesome", "postfixes"],
-  "publishCommand": "run clean-publish"
+  "publishCommand": "run my-awesome-command"
 }
 ```
 
@@ -134,7 +134,7 @@ Publish Wizard supports three ways to define config.
 ```json
 {
   "postfixes": ["my", "awesome", "postfixes"],
-  "publishCommand": "run clean-publish"
+  "publishCommand": "run my-awesome-command"
 }
 ```
 
