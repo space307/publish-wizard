@@ -17,7 +17,6 @@ Publish Wizard helps you not to think about the problem of queuing, allowing you
 
 https://user-images.githubusercontent.com/8722478/125051612-ca1f2400-e0ab-11eb-98ab-01e0b5a29e24.mp4
 
-
 1. Select a package from the list
 1. Select an [action](#actions):
    - Publish prerelease
@@ -114,3 +113,35 @@ npm run publish-wizard
 
 yarn run publish-wizard
 ```
+
+## Advanced usage
+
+You can specify custom `postfixes` and `publish command` through the config.
+
+Publish Wizard supports three ways to define config.
+
+1. `publish-wizard` section in `package.json`:
+
+```json
+"publish-wizard": {
+  "postfixes": ["my", "awesome", "postfixes"],
+  "publishCommand": "run clean-publish"
+}
+```
+
+2. or a separate `.publish-wizard.json` config file:
+
+```json
+{
+  "postfixes": ["my", "awesome", "postfixes"],
+  "publishCommand": "run clean-publish"
+}
+```
+
+Options description:
+
+- **postfixes**: list of postfixes that will be added to the standard list.
+
+- **publishCommand**: the command that will be called to publish. `publish` by default.
+
+All options are optional.
