@@ -2,6 +2,17 @@
 
 The easiest way to publish packages for projects using Lerna and NPM.
 
+## Table of Contents
+
+- [The problem it solves](#the-problem-it-solves)
+- [How it works](#how-it-works)
+- [Actions](#actions)
+  - [Publish prerelease](#publish-prerelease)
+  - [Publish release](#publish-release)
+  - [Show the update queue](#show-the-update-queue)
+- [Usage](#usage)
+- [Advanced usage](#advanced-usage)
+
 ## The problem it solves
 
 When publishing packages, it is necessary to follow the correct sequence of updates.

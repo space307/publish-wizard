@@ -16,8 +16,7 @@ When contributing to this repository, please first discuss the change you wish t
 ## Preparing
 
 1. clone repo
-2. install dependencies in repos root
-3. install dependencies in `playground`
+2. run `npm run install:all` or `yarn run install:all`
 
 ## How to test changes
 

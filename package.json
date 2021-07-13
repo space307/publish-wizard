@@ -37,6 +37,7 @@
   ],
   "scripts": {
     "clean-publish": "clean-publish",
+    "install:all": "npm ci && npm --prefix ./playground ci",
     "prettier:check": "prettier --check 'lib/**/*.js'",
     "prettier:fix": "prettier --write 'lib/**/*.js'"
   },
