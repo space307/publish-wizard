@@ -1,6 +1,6 @@
 {
   "name": "@space307/publish-wizard",
-  "version": "1.0.0",
+  "version": "2.0.0-next.0",
   "description": "The easiest way to publish packages for projects using Lerna and NPM",
   "author": "Viktor Pasynok",
   "email": "v.pasynok@space307.com",
