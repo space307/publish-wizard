@@ -15,8 +15,8 @@ When contributing to this repository, please first discuss the change you wish t
 
 ## Preparing
 
-1. clone repo
-2. run `npm run install:all` or `yarn run install:all`
+1. Clone repo
+2. Run `npm run install:all` or `yarn run install:all`
 
 ## How to test changes
 
