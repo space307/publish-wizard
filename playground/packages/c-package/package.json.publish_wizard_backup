@@ -1,0 +1,13 @@
+{
+  "description": "Don't delete the file. The wizard will need it for the release. After the release, the file will be deleted",
+  "name": "c-package",
+  "version": "3.0.0",
+  "devDependencies": {
+    "a-package": "1.0.0",
+    "b-package": "2.0.0"
+  },
+  "peerDependencies": {
+    "a-package": "1.0.0",
+    "b-package": "2.0.0"
+  }
+}
