@@ -20,7 +20,7 @@ When publishing packages, it is necessary to follow the correct sequence of upda
 For example, we have three packages: A, B, C. B depends on A. C depends on B.<br />
 If we want to update A, we need to update B and C (A -> B -> C).
 
-We can specify versions of dependencies flexibly, but this does not help in the case of publishing an unstable version of a package (with `next` postfix, for example). Adding more packages will only make the problem of queuing worse.
+We can specify versions of dependencies flexibly, but this does not help in the case of publishing an unstable version of a package (with `next` tag, for example). Adding more packages will only make the problem of queuing worse.
 
 Publish Wizard helps you not to think about the problem of queuing, allowing you to focus on what's important.
 
@@ -38,7 +38,7 @@ https://user-images.githubusercontent.com/8722478/125296270-c9e28b00-e32e-11eb-9
 
 #### Publish prerelease
 
-1. Select a postfix from the list
+1. Select a tag from the list
 2. Select the extent of changes
 3. Accept publish
 
@@ -127,7 +127,7 @@ yarn run publish-wizard
 
 ## Advanced usage
 
-You can specify `custom postfixes` and `publish command` through the config.
+You can specify `custom tags` and `publish command` through the config.
 
 Publish Wizard supports three ways to define config.
 
@@ -135,7 +135,7 @@ Publish Wizard supports three ways to define config.
 
 ```json
 "publish-wizard": {
-  "postfixes": ["my", "awesome", "postfixes"],
+  "tags": ["my", "awesome", "tags"],
   "publishCommand": "run my-awesome-command"
 }
 ```
@@ -144,14 +144,14 @@ Publish Wizard supports three ways to define config.
 
 ```json
 {
-  "postfixes": ["my", "awesome", "postfixes"],
+  "tags": ["my", "awesome", "tags"],
   "publishCommand": "run my-awesome-command"
 }
 ```
 
 Options description:
 
-- **postfixes**: list of postfixes that will be added to the standard list.
+- **tags**: list of tags that will be added to the standard list.
 
 - **publishCommand**: the command that will be called to publish. `publish` by default.
 
