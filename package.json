@@ -47,6 +47,7 @@
     "prettier": "2"
   },
   "dependencies": {
+    "app-root-path": "3",
     "kleur": "4",
     "nanoid": "3",
     "prompts": "2",
