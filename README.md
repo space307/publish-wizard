@@ -127,7 +127,7 @@ yarn run publish-wizard
 
 ## Advanced usage
 
-You can specify `custom tags` and `publish command` through the config.
+You can specify `custom postfixes` and `publish command` through the config.
 
 Publish Wizard supports three ways to define config.
 
@@ -135,7 +135,7 @@ Publish Wizard supports three ways to define config.
 
 ```json
 "publish-wizard": {
-  "tags": ["my", "awesome", "tags"],
+  "postfixes": ["my", "awesome", "postfixes"],
   "publishCommand": "run my-awesome-command"
 }
 ```
@@ -144,14 +144,14 @@ Publish Wizard supports three ways to define config.
 
 ```json
 {
-  "tags": ["my", "awesome", "tags"],
+  "postfixes": ["my", "awesome", "postfixes"],
   "publishCommand": "run my-awesome-command"
 }
 ```
 
 Options description:
 
-- **tags**: list of tags that will be added to the standard list.
+- **postfixes**: list of postfixes that will be added to the standard list.
 
 - **publishCommand**: the command that will be called to publish. `publish` by default.
 

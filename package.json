@@ -47,12 +47,11 @@
     "prettier": "2"
   },
   "dependencies": {
+    "app-root-path": "3",
     "kleur": "4",
-    "mico-spinner": "1",
     "nanoid": "3",
     "prompts": "2",
-    "semver": "7",
-    "vizion": "2"
+    "semver": "7"
   },
   "peerDependencies": {
     "lerna": "*"
